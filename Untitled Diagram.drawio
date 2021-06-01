@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T14:29:50.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="a2odKqdX8_mv6OLg2iwQ" version="14.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-01T15:06:00.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MgqboZ4eqzJP8_mVLzc7" version="14.7.3" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="第1页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -530,6 +530,43 @@
         </mxCell>
         <mxCell id="csyf3d81SrwQnqiY8J4s-22" value="&lt;h1&gt;读取卡号的线程&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="csyf3d81SrwQnqiY8J4s-1">
           <mxGeometry x="270" y="100" width="190" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xavyJK9XpIXxDyeJpoW-" name="第 5 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-0" />
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-1" parent="EMXQ9r4qgxeTa10q2FSq-0" />
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-6" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EMXQ9r4qgxeTa10q2FSq-1" source="EMXQ9r4qgxeTa10q2FSq-4" target="EMXQ9r4qgxeTa10q2FSq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-8" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EMXQ9r4qgxeTa10q2FSq-1" source="EMXQ9r4qgxeTa10q2FSq-4" target="EMXQ9r4qgxeTa10q2FSq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-4" value="是否有端口在充电？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EMXQ9r4qgxeTa10q2FSq-1">
+          <mxGeometry x="200" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="EMXQ9r4qgxeTa10q2FSq-1" source="EMXQ9r4qgxeTa10q2FSq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EMXQ9r4qgxeTa10q2FSq-1" source="EMXQ9r4qgxeTa10q2FSq-5" target="EMXQ9r4qgxeTa10q2FSq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-5" value="发送功率数组给服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="EMXQ9r4qgxeTa10q2FSq-1">
+          <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EMXQ9r4qgxeTa10q2FSq-1" source="EMXQ9r4qgxeTa10q2FSq-7" target="EMXQ9r4qgxeTa10q2FSq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-7" value="发送心跳指令给服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="EMXQ9r4qgxeTa10q2FSq-1">
+          <mxGeometry x="314" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMXQ9r4qgxeTa10q2FSq-15" value="&lt;h1&gt;心跳包（3Min一次）&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="EMXQ9r4qgxeTa10q2FSq-1">
+          <mxGeometry x="220" y="50" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
