@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T11:41:18.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hHRrue03n_ocT7r3tnIA" version="14.7.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-03T11:42:18.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="tbY-81WS0trkkObBF-YD" version="14.7.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="第1页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -631,7 +631,7 @@
         <mxCell id="FWfSvT-Gq12yRE9g188w-8" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-6" target="FWfSvT-Gq12yRE9g188w-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FWfSvT-Gq12yRE9g188w-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-6" target="FWfSvT-Gq12yRE9g188w-19">
+        <mxCell id="FWfSvT-Gq12yRE9g188w-40" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-6" target="FWfSvT-Gq12yRE9g188w-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="270" />
@@ -675,8 +675,13 @@
         <mxCell id="FWfSvT-Gq12yRE9g188w-30" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-27" target="FWfSvT-Gq12yRE9g188w-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FWfSvT-Gq12yRE9g188w-37" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-27" target="FWfSvT-Gq12yRE9g188w-35">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FWfSvT-Gq12yRE9g188w-37" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-27" target="FWfSvT-Gq12yRE9g188w-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="770" />
+              <mxPoint x="490" y="1120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="FWfSvT-Gq12yRE9g188w-27" value="设备号存在？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FWfSvT-Gq12yRE9g188w-1">
           <mxGeometry x="295" y="740" width="140" height="60" as="geometry" />
@@ -695,11 +700,6 @@
         </mxCell>
         <mxCell id="FWfSvT-Gq12yRE9g188w-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-33" target="FWfSvT-Gq12yRE9g188w-35">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FWfSvT-Gq12yRE9g188w-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FWfSvT-Gq12yRE9g188w-1" source="FWfSvT-Gq12yRE9g188w-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="1081" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="FWfSvT-Gq12yRE9g188w-33" value="模块存储设备号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FWfSvT-Gq12yRE9g188w-1">
           <mxGeometry x="305" y="1000" width="120" height="60" as="geometry" />
