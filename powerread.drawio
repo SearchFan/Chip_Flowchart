@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T14:15:43.129Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="T_ydgrlKlCDLegXg7oyz" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-16T14:37:37.740Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="28WhANnDvaMmCDrFZXNX" version="20.4.0" type="github" pages="3">
   <diagram id="8-V0pNnIsjqdrwvu2Nf6" name="第 1 页">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,6 +203,175 @@
         </mxCell>
         <mxCell id="F86OO1-kUBH97bRYNRT6-45" value="次数+1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="516.25" y="330" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KgAoJFmJ8FKOXo_EwztT" name="第 3 页">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-3" target="udMgwDhPtrYCHYkNvZCU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-3" value="初始化次数为10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-7" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-4" target="udMgwDhPtrYCHYkNvZCU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-57" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-4" target="udMgwDhPtrYCHYkNvZCU-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="215" />
+              <mxPoint x="170" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-4" value="标志位为10?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-6" target="udMgwDhPtrYCHYkNvZCU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-6" value="初始化芯片" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-8" target="udMgwDhPtrYCHYkNvZCU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-8" value="延迟20ms" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-11" target="udMgwDhPtrYCHYkNvZCU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-11" value="开启写入使能(3次)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-13" target="udMgwDhPtrYCHYkNvZCU-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-13" value="引脚置高" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-17" target="udMgwDhPtrYCHYkNvZCU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-17" value="写入系统寄存器(40ms)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-19" target="udMgwDhPtrYCHYkNvZCU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-19" value="延迟20ms" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-21" target="udMgwDhPtrYCHYkNvZCU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-21" value="写入控制寄存器1(40ms)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-23" target="udMgwDhPtrYCHYkNvZCU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-23" value="延迟20ms" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="730" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-25" target="udMgwDhPtrYCHYkNvZCU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-25" value="写入控制寄存器2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-27" target="udMgwDhPtrYCHYkNvZCU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-27" value="延迟20ms" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-29" target="udMgwDhPtrYCHYkNvZCU-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-29" value="引脚置低" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="910" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-31" target="udMgwDhPtrYCHYkNvZCU-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-31" value="关闭写入使能(3次)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="970" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-33" target="udMgwDhPtrYCHYkNvZCU-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-33" value="读取三个刚刚设置的寄存器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1030" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-35" target="udMgwDhPtrYCHYkNvZCU-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-35" value="读取A通道系数和B通道系数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1090" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-40" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-37" target="udMgwDhPtrYCHYkNvZCU-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-48" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-37" target="udMgwDhPtrYCHYkNvZCU-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-37" value="前5个参数有一个为空?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-39" target="udMgwDhPtrYCHYkNvZCU-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-39" value="将功率系数赋值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-44" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-41" target="udMgwDhPtrYCHYkNvZCU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-54" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-41" target="udMgwDhPtrYCHYkNvZCU-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-41" value="设置的三个寄存器读取正确?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-43" target="udMgwDhPtrYCHYkNvZCU-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-43" value="恢复标志位次数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-45" value="退出函数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1470" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-52" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-47" target="udMgwDhPtrYCHYkNvZCU-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-47" target="udMgwDhPtrYCHYkNvZCU-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-47" value="标志位参数置零?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-51" target="udMgwDhPtrYCHYkNvZCU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-51" value="判断功率初始化失败" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="udMgwDhPtrYCHYkNvZCU-55" target="udMgwDhPtrYCHYkNvZCU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-55" value="标志位次数减一" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="udMgwDhPtrYCHYkNvZCU-59" value="功率初始化流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="50" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
